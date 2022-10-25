@@ -1,3 +1,5 @@
+import successImage from "./src/assets/avatar.jpg";
+
 function SobreMi() {
   return (
     <div
@@ -5,10 +7,7 @@ function SobreMi() {
       className="hero min-h-screen bg-gradient-to-r from-primary-focus to-[#0c0717]"
     >
       <div className="hero-content flex-col lg:flex-row">
-        <img
-          src="./src/assets/avatar.jpg"
-          className="max-w-sm rounded-lg shadow-2xl"
-        />
+        <img src={successImage} className="max-w-sm rounded-lg shadow-2xl" />
         <div className="pr-8">
           <h1 className="text-8xl font-bold ml-8 pb-8 text-primary-content">
             SOBRE MI

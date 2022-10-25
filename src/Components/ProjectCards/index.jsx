@@ -1,6 +1,9 @@
+import { calculatorImage } from "./src/assets/calculatorImage.png";
+import { comingsoonImage } from "./src/assets/comingSoon.jpg";
+
 const proyectos = [
   {
-    image: "./src/assets/calculatorImage.png",
+    image: calculatorImage,
     title: "Calculadora",
     description: "Una simple calculadora.",
     id: 1,
@@ -8,19 +11,19 @@ const proyectos = [
     direction: "https://calculator-sandy-eight.vercel.app/",
   },
   {
-    image: "./src/assets/comingSoon.jpg",
+    image: comingsoonImage,
     title: "Coming Soon",
     description: "Nothing here yet...",
     id: 2,
   },
   {
-    image: "./src/assets/comingSoon.jpg",
+    image: comingsoonImage,
     title: "Coming Soon",
     description: "Nothing here yet...",
     id: 3,
   },
   {
-    image: "./src/assets/comingSoon.jpg",
+    image: comingsoonImage,
     title: "Coming Soon",
     description: "Nothing here yet...",
     id: 4,
