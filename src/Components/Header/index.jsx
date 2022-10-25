@@ -80,9 +80,9 @@ function Header() {
             <li>
               <a href="#Projects">PROYECTOS</a>
             </li>
-            <li>
+            {/* <li>
               <a href="#References">REFERENCIAS</a>
-            </li>
+            </li> */}
             <li>
               <a href="#Contact">CONTACTAME</a>
             </li>

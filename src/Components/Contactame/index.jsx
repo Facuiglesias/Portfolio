@@ -29,9 +29,9 @@ function Contactame() {
             <a href="#Projects" className="link link-hover font-bold">
               PROYECTOS
             </a>
-            <a href="#References" className="link link-hover font-bold">
+            {/* <a href="#References" className="link link-hover font-bold">
               REFERENCIAS
-            </a>
+            </a> */}
             <a href="#Contact" className="link link-hover font-bold">
               CONTACTAME
             </a>
