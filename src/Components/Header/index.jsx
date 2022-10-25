@@ -9,7 +9,10 @@ function Header() {
   const [theme, setTheme] = useState("dark");
 
   useEffect(() => {
-    setTheme(localStorage.getItem("theme"));
+    const prevTheme = localStorage.getItem("theme");
+    if (prevTheme) {
+      setTheme(prevTheme);
+    }
   });
 
   useEffect(() => {
