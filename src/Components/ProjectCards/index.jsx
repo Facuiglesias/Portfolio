@@ -1,5 +1,5 @@
-import { calculatorImage } from "./src/assets/calculatorImage.png";
-import { comingsoonImage } from "./src/assets/comingSoon.jpg";
+import calculatorImage from "../../assets/calculatorImage.png";
+import comingsoonImage from "../../assets/comingSoon.jpg";
 
 const proyectos = [
   {
