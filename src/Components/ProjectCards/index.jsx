@@ -8,7 +8,7 @@ const proyectos = [
     description: "Una simple calculadora.",
     id: 1,
     git: "https://github.com/Facunditote/Calculator",
-    direction: "https://calculator-sandy-eight.vercel.app/",
+    direction: "https://project-calculator-react.vercel.app/",
   },
   {
     image: comingsoonImage,
