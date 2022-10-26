@@ -78,7 +78,7 @@ function Header() {
               <a href="#Introduction">INICIO</a>
             </li>
             <li>
-              <a href="#About">SOBRE MIaaaaaaaaaaaaa</a>
+              <a href="#About">SOBRE MI</a>
             </li>
             <li>
               <a href="#Projects">PROYECTOS</a>
