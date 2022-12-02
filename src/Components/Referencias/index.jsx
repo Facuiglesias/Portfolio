@@ -1,3 +1,5 @@
+import referenciaAlexis from "../../assets/referenciaALEXIS.png";
+
 function Referencias() {
   return (
     <div id="References" className="hero bg-base-200">
@@ -11,7 +13,7 @@ function Referencias() {
           </p>
           <div className="carousel w-full rounded-[20px] my-8">
             <div id="slide1" className="carousel-item relative w-full">
-              <img src="https://placeimg.com/800/200/arch" className="w-full" />
+              <img src={referenciaAlexis} className="w-full" />
               <div className="absolute flex justify-between transform -translate-y-1/2 left-5 right-5 top-1/2">
                 <a href="#slide4" className="btn btn-circle">
                   ❮

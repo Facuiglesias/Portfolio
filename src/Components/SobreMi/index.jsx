@@ -19,12 +19,6 @@ function SobreMi() {
             React.js, Tailwind.css y Node.js.
           </p>
           <div className="text-center">
-            {/* <button
-              onClick={() => window.scrollTo(0, 1930)}
-              className="btn btn-primary text-center w-40 h-8"
-            >
-              PROYECTOS
-            </button> */}
             <a
               href="#Projects"
               className="btn btn-primary text-center w-40 h-8"
