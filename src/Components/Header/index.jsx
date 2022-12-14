@@ -1,5 +1,7 @@
 import { useEffect, useState } from "react";
 import { themeChange } from "theme-change";
+import es from "../../assets/es.svg";
+import gb from "../../assets/gb.svg";
 
 //Aprender a usar local storage
 //Cuando renderiza la pagina, meter lo del localStorage en el estado
@@ -75,48 +77,68 @@ function Header() {
         <div className="flex-none">
           <ul className="menu menu-horizontal p-0 font-bold">
             <li>
-              <a href="#Introduction">INICIO</a>
+              <a
+                href="#Introduction"
+                className={`${showFixed && "hover:bg-base-100"}`}
+              >
+                INICIO
+              </a>
             </li>
             <li>
-              <a href="#About">SOBRE MI</a>
+              <a
+                href="#About"
+                className={`${showFixed && "hover:bg-base-100"}`}
+              >
+                SOBRE MI
+              </a>
             </li>
             <li>
-              <a href="#Projects">PROYECTOS</a>
+              <a
+                href="#Projects"
+                className={`${showFixed && "hover:bg-base-100"}`}
+              >
+                PROYECTOS
+              </a>
             </li>
             <li>
-              <a href="#References">REFERENCIAS</a>
+              <a
+                href="#References"
+                className={`${showFixed && "hover:bg-base-100"}`}
+              >
+                REFERENCIAS
+              </a>
             </li>
             <li>
-              <a href="#Contact">CONTACTAME</a>
-            </li>
-            <li>
-              <a href="#Contact">
-                <svg
-                  className="fill-current w-10 h-10"
-                  xmlns="http://www.w3.org/2000/svg"
-                  viewBox="0 0 24 24"
-                >
-                  <path d="M21.64,13a1,1,0,0,0-1.05-.14,8.05,8.05,0,0,1-3.37.73A8.15,8.15,0,0,1,9.08,5.49a8.59,8.59,0,0,1,.25-2A1,1,0,0,0,8,2.36,10.14,10.14,0,1,0,22,14.05,1,1,0,0,0,21.64,13Zm-9.5,6.69A8.14,8.14,0,0,1,7.08,5.22v.27A10.15,10.15,0,0,0,17.22,15.63a9.79,9.79,0,0,0,2.1-.22A8.11,8.11,0,0,1,12.14,19.73Z" />
-                </svg>
+              <a
+                href="#Contact"
+                className={`${showFixed && "hover:bg-base-100"}`}
+              >
+                CONTACTAME
               </a>
             </li>
           </ul>
-          {/* <div className="dropdown dropdown-end">
-            <label tabIndex={0} className="btn m-1">
-              Idioma
+          <div className="dropdown dropdown-end ">
+            <label
+              tabIndex={0}
+              className={`btn text-base bg-inherit border-0 text-primary-content m-1 font-bold px-4 ${
+                showFixed &&
+                "transition text-base-content duration-300 bg-base-200 z-10 hover:bg-base-100"
+              }`}
+            >
+              IDIOMA
             </label>
             <ul
               tabIndex={0}
-              className="dropdown-content menu p-2 shadow bg-base-100 rounded-box w-52"
+              className="dropdown-content menu p-2 shadow bg-base-200 rounded w-full"
             >
-              <li>
-                <a>Item 1</a>
+              <li className="border-b border-base-100">
+                <img src={gb} className="active:bg-inherit" />
               </li>
               <li>
-                <a>Item 2</a>
+                <img src={es} className="active:bg-inherit" />
               </li>
             </ul>
-          </div> */}
+          </div>
         </div>
       </div>
     </>
