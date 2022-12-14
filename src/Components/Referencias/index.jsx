@@ -3,7 +3,7 @@ import referenciaAlexis from "../../assets/referenciaALEXIS.png";
 function Referencias() {
   return (
     <div id="References" className="hero bg-base-200">
-      <div className="hero-content flex-col lg:flex-row-reverse">
+      <div className="hero-content flex-col lg:flex-row-reverse pt-20">
         <div>
           <h1 className="text-6xl font-bold my-4">REFERENCIAS</h1>
           <p className="text-2xl">
@@ -24,7 +24,7 @@ function Referencias() {
               </div>
             </div>
             <div id="slide2" className="carousel-item relative w-full">
-              <img src="https://placeimg.com/800/200/arch" className="w-full" />
+              <img src="https:placeimg.com/800/200/arch" className="w-full" />
               <div className="absolute flex justify-between transform -translate-y-1/2 left-5 right-5 top-1/2">
                 <a href="#slide1" className="btn btn-circle">
                   ❮
@@ -35,7 +35,7 @@ function Referencias() {
               </div>
             </div>
             <div id="slide3" className="carousel-item relative w-full">
-              <img src="https://placeimg.com/800/200/arch" className="w-full" />
+              <img src="https:placeimg.com/800/200/arch" className="w-full" />
               <div className="absolute flex justify-between transform -translate-y-1/2 left-5 right-5 top-1/2">
                 <a href="#slide2" className="btn btn-circle">
                   ❮
@@ -46,7 +46,7 @@ function Referencias() {
               </div>
             </div>
             <div id="slide4" className="carousel-item relative w-full">
-              <img src="https://placeimg.com/800/200/arch" className="w-full" />
+              <img src="https:placeimg.com/800/200/arch" className="w-full" />
               <div className="absolute flex justify-between transform -translate-y-1/2 left-5 right-5 top-1/2">
                 <a href="#slide3" className="btn btn-circle">
                   ❮
