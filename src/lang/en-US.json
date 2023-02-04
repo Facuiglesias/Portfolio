@@ -1,0 +1,24 @@
+{
+  "header.home": "HOME",
+  "header.about": "ABOUT",
+  "header.projects": "PROJECTS",
+  "header.references": "REFERENCES",
+  "header.contact": "CONTACT",
+  "header.lang": "LANG",
+
+  "home.welcome": "Hi! I'm Facundo Iglesias",
+  "home.job": "Web Developer | Front-end",
+  "home.resume": "I'm a young lover of technology, with experience developing web pages. Press the button below if you want to know a bit more about me.",
+  "home.btnAbout": "ABOUT ME",
+
+  "about.title": "ABOUT ME",
+  "about.description": "My name is Facundo Iglesias, i'm from Buenos Aires - Argentina. I have experience developing web pages using HTML, CSS, Javascript and working with technologies like React.js, Tailwind.css & Node.js.",
+  "about.btnProjects": "PROJECTS",
+
+  "projects.title": "PROJECTS",
+
+  "cardProjectsName.calculator": "Calculator",
+  "cardProjectsName.none": "Coming Soon",
+  "cardProjectsDescription.calculator": "Calculator inspired in iOS calculator",
+  "cardProjectsDescription.none": "Nothing here yet..."
+}

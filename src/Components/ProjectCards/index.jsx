@@ -1,10 +1,17 @@
 import calculatorImage from "../../assets/calculatorImage.png";
 import comingsoonImage from "../../assets/comingSoon.jpg";
+import { FormattedMessage } from "react-intl";
 
-const proyectos = [
+const projects = [
   {
     image: calculatorImage,
-    title: "Calculadora",
+    title: (
+      <FormattedMessage
+        id="cardProjects.calculator"
+        defaultMessage="Calculator"
+      />
+    ),
+    // "Calculadora",
     description: "Una simple calculadora.",
     id: 1,
     git: "https://github.com/Facunditote/Calculator",
@@ -33,7 +40,7 @@ const proyectos = [
 function ProjectCards() {
   return (
     <>
-      {proyectos.map((project) => (
+      {projects.map((project) => (
         <div
           key={project.id}
           className="card w-4/5 bg-base-100 shadow-xl mb-16"

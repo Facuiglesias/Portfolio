@@ -1,10 +1,9 @@
 import { useEffect, useState } from "react";
 import { themeChange } from "theme-change";
+import { FormattedMessage } from "react-intl";
+
 import es from "../../assets/es.svg";
 import gb from "../../assets/gb.svg";
-
-//Aprender a usar local storage
-//Cuando renderiza la pagina, meter lo del localStorage en el estado
 
 function Header() {
   const [showFixed, setShowFixed] = useState(false);
@@ -81,7 +80,7 @@ function Header() {
                 href="#Introduction"
                 className={`${showFixed && "hover:bg-base-100"}`}
               >
-                INICIO
+                <FormattedMessage id="header.home" defaultMessage="HOME" />
               </a>
             </li>
             <li>
@@ -89,7 +88,7 @@ function Header() {
                 href="#About"
                 className={`${showFixed && "hover:bg-base-100"}`}
               >
-                SOBRE MI
+                <FormattedMessage id="header.about" defaultMessage="ABOUT" />
               </a>
             </li>
             <li>
@@ -97,7 +96,10 @@ function Header() {
                 href="#Projects"
                 className={`${showFixed && "hover:bg-base-100"}`}
               >
-                PROYECTOS
+                <FormattedMessage
+                  id="header.projects"
+                  defaultMessage="PROJECTS"
+                />
               </a>
             </li>
             <li>
@@ -105,7 +107,10 @@ function Header() {
                 href="#References"
                 className={`${showFixed && "hover:bg-base-100"}`}
               >
-                REFERENCIAS
+                <FormattedMessage
+                  id="header.references"
+                  defaultMessage="REFERENCES"
+                />
               </a>
             </li>
             <li>
@@ -113,7 +118,10 @@ function Header() {
                 href="#Contact"
                 className={`${showFixed && "hover:bg-base-100"}`}
               >
-                CONTACTAME
+                <FormattedMessage
+                  id="header.contact"
+                  defaultMessage="CONTACT"
+                />
               </a>
             </li>
           </ul>
@@ -125,7 +133,7 @@ function Header() {
                 "transition text-base-content duration-300 bg-base-200 z-10 hover:bg-base-100"
               }`}
             >
-              IDIOMA
+              <FormattedMessage id="header.lang" defaultMessage="LANG" />
             </label>
             <ul
               tabIndex={0}
