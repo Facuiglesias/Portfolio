@@ -7,32 +7,72 @@ const projects = [
     image: calculatorImage,
     title: (
       <FormattedMessage
-        id="cardProjects.calculator"
+        id="cardProjectsName.calculator"
         defaultMessage="Calculator"
       />
     ),
     // "Calculadora",
-    description: "Una simple calculadora.",
+    description: (
+      <FormattedMessage
+        id="cardProjectsDescription.calculator"
+        defaultMessage="Calculator inspired in iOS calculator."
+      />
+    ),
+    // "Una simple calculadora.",
     id: 1,
     git: "https://github.com/Facunditote/Calculator",
     direction: "https://project-calculator-react.vercel.app/",
   },
   {
     image: comingsoonImage,
-    title: "Coming Soon",
-    description: "Nothing here yet...",
+    title: (
+      <FormattedMessage
+        id="cardProjectsName.none"
+        defaultMessage="Coming soon"
+      />
+    ),
+    // "Coming Soon",
+    description: (
+      <FormattedMessage
+        id="cardProjectsDescription.none"
+        defaultMessage="Nothing here yet..."
+      />
+    ),
+    // "Nothing here yet...",
     id: 2,
   },
   {
     image: comingsoonImage,
-    title: "Coming Soon",
-    description: "Nothing here yet...",
+    title: (
+      <FormattedMessage
+        id="cardProjectsName.none"
+        defaultMessage="Coming soon"
+      />
+    ),
+    // "Coming Soon",
+    description: (
+      <FormattedMessage
+        id="cardProjectsDescription.none"
+        defaultMessage="Nothing here yet..."
+      />
+    ),
     id: 3,
   },
   {
     image: comingsoonImage,
-    title: "Coming Soon",
-    description: "Nothing here yet...",
+    title: (
+      <FormattedMessage
+        id="cardProjectsName.none"
+        defaultMessage="Coming soon"
+      />
+    ),
+    // "Coming Soon",
+    description: (
+      <FormattedMessage
+        id="cardProjectsDescription.none"
+        defaultMessage="Nothing here yet..."
+      />
+    ),
     id: 4,
   },
 ];
